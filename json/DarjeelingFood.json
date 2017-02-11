@@ -1,0 +1,112 @@
+[
+      {
+         "formatted_address" : "Richmond Hill, Darjeeling, West Bengal 734101, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 27.051811,
+               "lng" : 88.26126069999999
+            }
+         },
+         "icon" : "http://colours.typepad.com/.a/6a00d83470044869e201156f1f7c30970c-pi",
+         "id" : "2f2f9c70cac0e3441134f90708e14a34f9b6107d",
+         "name" : "Hot Stimulating Cafe",
+         "opening_hours" : {
+            "exceptional_date" : [],
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 506,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114915684741826268162/photos\"\u003eDeepak Keswani\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAK7D8_5CUJ1tWj0UBlbpEriuDs_VlM5GMe0-V_bRkdbzCjB9BuEdUcjuo2quQ5MqiTQ5MqG2J7i3Vk_TJA0Z613tkGFjLu5TJVUlYxPTNEGwr_3qjvmC3tm3WIyHXhRUCJ_F47kJFzhjwWDwS1tn_b7JoT320Ysao4PIa8rZ0DoQEhDDzHd11Qfq01yowigp-xr4GhRG0Zyi7Y0FErWIVtXRYZtk4VUzsg",
+               "width" : 700
+            }
+         ],
+         "place_id" : "ChIJvbAyybsu5DkRaULXiPD2PT8",
+         "rating" : 3.9,
+         "reference" : "CmRRAAAAr1YudqEENHc3HpSfhAuzDnFT4_bJKK-OyhfqdH9bmh1piaUtQGKehDqvckHMEpRfCD8ozZfaMgLwvTdL10047X7Gvw1dB1JKG6fxiO50q4qzGTp8jhYB1zo5S_qsGljfEhB7ZfyvXL7oS9Ei47Bgj-zTGhQNvEIciWnvX-K2LyY5lARQB_KtLg",
+         "types" : [ "cafe", "food", "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "Chauk Bazaar, Darjeeling, West Bengal 734101, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 27.0421328,
+               "lng" : 88.267117
+            }
+         },
+         "icon" : "http://im.hunt.in/cg/khanna/City-Guide/fast_food.jpg",
+         "id" : "b2666d849ec152490ca654a006d80918a1211f61",
+         "name" : "Himalayan Java",
+         "opening_hours" : {
+            "exceptional_date" : [],
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1456,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107057580179258185450/photos\"\u003eBaagh Cat\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAEnh8qAOhMAgm-C708rDvKxkvV2pa43bzvpp9_MQCVYA7779ul-W2xDVIeqnAnGIymD8-RtFVdu4l1Kh5NK4wXl6ePKvymG6dHsY8eIBFGJk7_ZUMJRYuPYgpPQeD8Yx_88pQgcZNwIpzuE7_oR5hhX7YQQrefc6vkyFkdX8EXp5EhB9BvHj6UihOFsIrieSUiSSGhR1tgLC5b4P6C3PsJeFUAHlBuyx1A",
+               "width" : 2592
+            }
+         ],
+         "place_id" : "ChIJUcXUHesu5DkRYv8N7-qJ8fM",
+         "rating" : 4.6,
+         "reference" : "CmRSAAAAqMAEmG_zfb9ZjimMQqFaTmE1u4p0ga2nfZzxmYgy3tVSWMXsYdYm4I8oQI_vA1CwaBW2X3syK8_FKP3Qwq1EhNHYGrKq8NtgKu07WEL-O6tP8Kj4d4NOQ3-4jhvRfOBUEhDoEnyyiHu5JPCZE9yFJsdQGhR_j8QWGNQQrf47W19bfGo1rQBCkg",
+         "types" : [ "cafe", "food", "store", "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "82 Punt Rd, Windsor VIC 3181, Australia",
+         "geometry" : {
+            "location" : {
+               "lat" : -37.85383830000001,
+               "lng" : 144.9837646
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -37.85376285,
+                  "lng" : 144.98382585
+               },
+               "southwest" : {
+                  "lat" : -37.85386345000001,
+                  "lng" : 144.98358085
+               }
+            }
+         },
+         "icon" : "http://images.totalbeauty.com/uploads/editorial/assets/burger_large.png",
+         "id" : "10561596643133f8fd58f326a0f5c4a09eade404",
+         "name" : "Cafe Darjeeling",
+         "opening_hours" : {
+            "exceptional_date" : [],
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 364,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104550745787585391018/photos\"\u003eCafe Darjeeling\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAHO9ilkuUARwXWBmz0G-0NiZedyEJbLQEn_BhXW4DaYE0DEWTYv1d065RI7fHqvykVX1M6Qdp4eCdAXUfln-3ezoVgl2dXOCeXvrSW3GXaObGRg-Ub2Zqn-cd2gcmwHARfp1MKi_mkO5cS7NJI7U3Fae7FGjy0mY3aKKlMTmccJREhBh0z2RsCxsafsz1Nxtnyx_GhTo5pQ_fnaoyM5a8TcCCmP9E8MvFg",
+               "width" : 954
+            }
+         ],
+         "place_id" : "ChIJdcmvJD5o1moRtY3jqxX6xlU",
+         "rating" : 4.4,
+         "reference" : "CmRRAAAAB5cLoyNCmO982lyCyw8vgLiVDoMJlZIWTVV_mEnSu5BPy5-ic57jn1AdzGteedmYi7Ae8ya-qzwx77SAUDNM6H39hkuXy3F-WOGbBmdxoDZCvXoVqLMAVtf4Ay-Xw6E8EhB3FPBqdktVfbPu_QOhk9qhGhTw5EzispfjEDivmwbsrSXX7SWVTw",
+         "types" : [
+            "meal_delivery",
+            "cafe",
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ]
+      }]

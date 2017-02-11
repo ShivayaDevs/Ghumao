@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hawa Mahal</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/navbar_css.css">
+  
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#" id="title-bar">Hawa Mahal</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="dashboard.html">My plan</a></li>
+            <li><a href="food.html">I'm hungry!</a></li>
+            <li><a href="photos-list.html">Our Photos</a></li>
+            <li><a href="group.html">My Group</a></li>
+            <li><a href="emergency.html">Emergency</a></li>
+          </ul>
+         </div>
+      </div>
+    </nav>
+    
+    <div class="container">
+      <div class="panel panel-default">
+        <img class="width-match-parent" src="" id="image-view">
+        <p></p>
+        <div class="container-fluid">
+          <h2 class="place-title" id="title-view"></h2>
+          <p class="place-summary" id="summary-view">
+          </p>
+        </div>        
+      </div>
+      <div class="panel panel-default">
+        <div class="container-fluid">
+          <h5>Your photos here:</h5>
+          <div id="your-images-list">
+          
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="container-fluid">
+          <h5>More from Web</h5>
+          <div>
+          <img src="img/you-at-hawa2.jpg" class="left-aligned grid-photos">
+          <img src="img/you-at-hawa1.jpg" class="right-aligned grid-photos">
+          </div>
+        </div>
+      </div>
+
+
+      
+    </div>
+    <script>
+      console.log(localStorage.getItem('group_id'));
+      $.ajax({
+            url: 'backend/place_display1.php',
+            type: 'post',
+            dataType: 'json',
+            data: JSON.parse('{"place_id":"'+ localStorage.getItem("place_id")+'"}'),
+            success: function(data) {
+                       console.log(data);
+                       document.getElementById('image-view').src=data[0]['photo_url'];
+                       document.getElementById('title-view').innerHTML=data[0]['place_name'];
+                       document.getElementById('title-bar').innerHTML=data[0]['place_name'];
+                       document.getElementById('summary-view').innerHTML=data[0]['summary'];
+                }
+              });
+      console.log(localStorage.getItem('place_id'));
+      $.ajax({
+            url: 'backend/photo_display.php',
+            type: 'post',
+            dataType: 'json',
+            data: JSON.parse('{"place_id":"'+ localStorage.getItem("place_id")+'","group_id":"'+localStorage.getItem("group_id")+'"}'),
+            success: function(data) {
+                       console.log(data);
+                      for(var i in data){
+                        if(i%2===0){
+                          $('#your-images-list').append(
+                            '<img src="'+data[i]['url']+'" class="left-aligned grid-photos">'
+                          );
+                        }
+                        else{
+                          $('#your-images-list').append(
+                              '<img src="'+data[i]['url']+'" class="right-aligned grid-photos">'
+                            );
+
+                        }
+                      }
+                }
+              });
+
+
+
+
+
+
+    </script>
+
+
+</body>
+</html>

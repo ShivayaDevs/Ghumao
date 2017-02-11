@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/navbar_css.css">
+  
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        
+          <button type="button" class="navbar-toggle collapsed" id="uber">
+            <span class="glyphicon glyphicon-bed"></span>
+          </button>
+
+          <a class="navbar-brand" href="#">My Plan</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">My plan</a></li>
+            <li><a href="food.html">I'm hungry!</a></li>
+            <li><a href="photos-list.html">Our Photos</a></li>
+            <li><a href="group.html">My Group</a></li>
+          </ul>
+         </div>
+      </div>
+    </nav>
+    
+    <p></p>
+    <div class="container">
+      
+      <div id="places-list">
+      </div>
+        <!--This is the layout of a single card -->
+          
+       
+            
+    </div>
+    
+    <script>
+
+     $('#uber').click(
+      function() {
+        window.location="https://play.google.com/store/apps/details?id=com.ubercab&hl=en";
+      }
+      );
+
+      var all_places;
+      console.log(localStorage.getItem('group_id'));
+      $.ajax({
+            url: 'backend/places_display.php',
+            type: 'post',
+            dataType: 'json',
+            data: JSON.parse('{"group_id":"'+ localStorage.getItem("group_id")+'"}'),
+            success: function(data) {
+                       console.log(data);
+
+
+                      all_places = data ;
+                      for(var i in data){
+                        console.log(data[i]);
+                        $('#places-list').append(
+                            
+                            '<div class="panel panel-default" onclick="place_picked('+ i +');">'+
+                              '<img class="width-match-parent" src="' + data[i]['photo_url'] + 
+                              '"> <div class="container-fluid">       <h4 class="heading-inline">'+
+                              data[i]['place_name']  +
+                              '</h4>   <input type="checkbox" class="right-aligned" name="checkbox-place"></input>'+       
+                              '</div>   </div>'
+
+                            // ''
+
+
+
+                            // '<div class="panel panel-default"><img class="width-match-parent" src="' +
+                            // json[i]['icon']+
+                            // '"> <div class="container-fluid"><h4 class="heading-inline">'+
+                            // json[i]['name']+
+                            // '</h4> <input type="checkbox" class="right-aligned" name="checkbox-place"></div>     </div>      </div>'
+                          );
+                      }
+            }
+      }); 
+
+      place_picked = function(i){
+        console.log();
+        localStorage.setItem("place_id", all_places[i]['place_id']);
+        console.log('place id is:'+ all_places[i]['place_id']);
+        window.location="place_details.html";
+      }
+    </script>
+
+</body>
+</html>
+
+<!--
+
+  TODO: Replace normal button by FAB
+

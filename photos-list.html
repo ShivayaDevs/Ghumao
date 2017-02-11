@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>This trip's Photos</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/navbar_css.css">
+  
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" id="camera">
+          <span class="glyphicon glyphicon-camera"></span>
+          </button>
+          <a class="navbar-brand" href="#">This trip's photos</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="dashboard.html">My plan</a></li>
+            <li><a href="food.html">I'm hungry!</a></li>
+            <li class="active"><a href="photos-list.html">Our Photos</a></li>
+            <li><a href="group.html">My Group</a></li>
+          </ul>
+         </div>
+      </div>
+    </nav>
+    <p></p>    
+    
+    <div class="panel panel-default">
+      <div class="container-fluid">
+        <div id="your-images-list">
+        <!-- <img src="img/you-at-hawa1.jpg" class="left-aligned grid-photos"> -->
+        <!-- <img src="img/you-at-hawa2.jpg" class="right-aligned grid-photos"> -->
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!--MODAL-->
+    <div class="modal fade" id="camera-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="exampleModalLabel">Add a photo</h4>
+          </div>
+          <div class="modal-body">
+            <form class="inline">
+              <p>Since the diro SDK is not working presently you can enter a URL to add an image. 
+              As soon as the diro backend gets back to working condition you can use the camera capture/mobile gallery.
+              </p>  
+              <div class="form-group">
+                <label for="url-input" class="control-label">Enter the URL</label>
+                <input type="text" class="form-control" id="url-input">
+              </div>
+            </form>
+            <span id="error1" class="error-class"></span>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary" id="add-photo">Add Photo</button>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+    <script>
+
+      $('#camera').click(function(){
+        $('#camera-modal').modal('show');
+      });
+
+
+      console.log(localStorage.getItem("group_id"));
+      $.ajax({
+            url: 'backend/photo_all.php',
+            type: 'post',
+            dataType: 'json',
+            data: JSON.parse('{"group_id":"'+localStorage.getItem("group_id")+'"}'),
+            success: function(data) {
+                       console.log(data);
+                      for(var i in data){
+                        if(i%2===0){
+                          $('#your-images-list').append(
+                            '<img src="'+data[i]['url']+'" class="left-aligned grid-photos">'
+                          );
+                        }
+                        else{
+                          $('#your-images-list').append(
+                              '<img src="'+data[i]['url']+'" class="right-aligned grid-photos">'
+                            );
+
+                        }
+                      }
+                }
+              });
+
+        $('#add-photo').click(
+          function(){
+            // console.
+            url_image = document.getElementById('url-input').value;
+            if(url_image === ""){
+              document.getElementById('error1').innerHTML = "Please enter a URL";
+              return;
+            }
+
+            $.ajax({
+            url: 'backend/photo_add.php',
+            type: 'post',
+            dataType: 'json',
+            data: JSON.parse('{"group_id":"'+localStorage.getItem("group_id")+'","place_id":"0","url":"'+url_image+'"}'),
+            success: function(data) {
+                       console.log(data);
+                        
+                }
+              });    
+            $('#camera-modal').modal('hide');
+            window.location="photos-list.html";        
+          });
+
+    </script>
+
+</body>
+</html>
+
+<!--
+
+  TODO: Replace normal button by FAB
+

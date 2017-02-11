@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ghumao</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/navbar_css.css">
+  
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Ghumao</a>
+        </div>
+      </div>
+    </nav>
+    
+    <img class="width-match-parent" src="img/travel-nurse.jpg">
+    <p></p>
+    <div class="container">
+    <div id="previous-list">
+    </div>
+    <button class="btn btn-default" data-toggle="modal" data-target="#destination-modal">Add a new trip!</button>
+    
+
+
+    </div>
+      
+   
+    <!--MODAL-->
+    <div class="modal fade" id="destination-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="exampleModalLabel">What's your destination?</h4>
+          </div>
+          <div class="modal-body">
+            <form class="inline">
+
+              <div class="form-group">
+                <label for="destination-name" class="control-label">Destination</label>
+                <input type="text" class="form-control" id="destination-name">
+              </div>
+              <div class="form-group">
+                <label for="trip-date" class="control-label">From</label>
+                <input type="date" class="form-control" id="trip-date">
+              </div>
+            </form>
+            <span id="error1" class="error-class"></span>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary" id="btn-continue1">Continue</button>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      $('#btn-continue1').click(function(){
+        //Validate data
+        if(document.getElementById('destination-name').value == "")
+          document.getElementById('error1').innerHTML = "Please select a destination";
+        else{
+          localStorage.setItem("destination", document.getElementById('destination-name').value);
+          $('#destination-modal').modal('hide');
+          console.log('Making a request for destination');
+          $.ajax({
+            url: 'backend/group_add.php',
+            type: 'post',
+            dataType: 'json',
+            data: JSON.parse('{"owner_id":"'+ localStorage.getItem("user_id") +'", "location":"'+ document.getElementById('destination-name').value+'"}'),
+            success: function(data) {
+                       console.log(data);
+                       localStorage.setItem("group_id", data);
+                     }
+          }); 
+          $('#people-modal').modal('show');
+        }
+      });
+    </script>
+
+
+    <div class="modal fade" id="people-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="exampleModalLabel">Visiting with?</h4>
+          </div>
+          <div class="modal-body">
+            <form>
+
+              <div class="form-group">
+                <label for="search-input" class="control-label">Search</label>
+                <input type="text" class="form-control" id="search-input">
+              </div>
+
+              <div id="contacts-list">
+              
+              </div>
+
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary" id="button-continue2">Continue</button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // This will fetch a list of all the previous trips
+      var all_trips;
+      console.log('Making a request for previous trips');
+      $.ajax({
+        url: 'backend/group_display1.php',
+        type: 'post',
+        dataType: 'json',
+        data: JSON.parse('{"user_id":"'+localStorage.getItem("user_id")+'"}'),
+        success: function(data) {
+                   console.log(data);
+                   all_trips = data;
+                    for(var i in data){
+                      $('#previous-list').append(
+                            '<div class="panel panel-default" onclick=launch_trip('+i+')>'+
+                              '<div class="container-fluid">'+
+                                '<h3 class="card-title">'+
+                                  data[i]['location'] + ' trip'
+                                +'</h3>'+ 
+                              '</div></div>'
+                        );
+                    }
+                      console.log(data[i]);
+                 }
+      });
+
+      var launch_trip = function(i){
+        localStorage.setItem("group_id", ""+all_trips[i]['group_id']);
+        console.log('group_id set to:' + localStorage.getItem("group_id"));
+        window.location="dashboard.html";
+      }
+
+
+
+      var contacts_all;
+      $.get('backend/user_display.php', function(data, status){
+        var json = JSON.parse(data);
+        console.log('Req: ' + json);
+        contacts_all = json;
+        for(var i in json){
+          console.log(json[i]);
+          console.log(json[i]["user_name"])
+          $('#contacts-list').append(
+               '<div class="container card-select-people">'
+                 +'<input type="checkbox" name="contacts-checkbox">&nbsp;&nbsp;' +
+                  json[i]['user_name'] +
+                 '</input></div>'
+            );          
+        } 
+      });
+      
+      $('#button-continue2').click(function(){
+        var checkboxes = document.getElementsByName('contacts-checkbox');
+        var checkedObjects = [];
+        for(var i=0 ; i<checkboxes.length; i++){
+          if(checkboxes[i].checked){
+            console.log(contacts_all[i]);
+
+
+            $.ajax({
+            url: 'backend/member_add.php',
+            type: 'post',
+            dataType: 'json',
+            data: JSON.parse('{"user_id":"'+contacts_all[i]["user_id"]+'","group_id":"'+localStorage.getItem("group_id")+'"}'),
+            success: function(data) {
+                       console.log(data);
+                       console.log(data[i]);
+                     }
+          });
+          }
+        }
+        window.location = "places-selection.html";
+      });
+    </script>
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+<!--
+
+  TODO: Replace normal button by FAB
+

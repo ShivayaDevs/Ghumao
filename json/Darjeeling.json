@@ -1,0 +1,146 @@
+ [
+      {
+         "formatted_address" : "Jawahar Parbat, Darjeeling, West Bengal 734101, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 27.0585367,
+               "lng" : 88.2539795
+            }
+         },
+         "summary" : "There are several important places around Observatory Hill. Birch Hill, or Jawahar Parbat, an offshoot from The Mall, is an exclusive residential section where the Raj Bhavan is situated.[6] The Himalayan Mountaineering Institute is located on the western spur of Jawahar Parbat, about a kilometre and half from Observatory Hill.[7] The Windamere Hotel and West Bengal Government’s Tourist Lodge stand above The Mall. Windamere, a cozy boarding area of the bachelor English and Scottish tea planters, was converted into a hotel in 1939.[8] There are a number of hotels and restaurants in and around Chowrasta or The Mall. A road from The Mall leads to Step Aside- the house of the eminent freedom fighter Chittaranjan Das.[9] He died in Darjeeling on 16 June 1925.[10] The latest addition coming up is a large “Ranga Manch” (theatre) overlooking the Chowrasta.",
+         "icon" : "http://www.hotelteesta.com/images/zoo.jpg",
+         "id" : "881e3fe7cad1ebea90c8701b7a8ae86aad9a38c1",
+         "name" : "Padmaja Naidu Himalayan Zoological Park",
+         "opening_hours" : {
+            "exceptional_date" : [],
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 2448,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101000805748969742664/photos\"\u003evivek kumar\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAIW8FsCYhkHDju8SaIjfnRuHyjDnwNMvS4lz1HoR6tHJ1pDzjHcXtuq1qL3doZ94FDNfyC2xhnmQEh_MrXwBTZqaAtKOik2_b90Jjw3WbR2Rz_QLa6UomMJuV788llI8ax33meW9t7fs9GPmIUtoy_dmw2RpT6Q7G3D7-jjq12vaEhBcgh4SKH8E4r370ZXBYlSpGhSJCMaBQBZa6NPKqoDO9P6KSg0ekA",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJUURduq8u5DkReXmiQqi9IYk",
+         "rating" : 4.3,
+         "reference" : "CmRSAAAA0YmjAm-syy6kOtOqjxv6gBVbLKHu34lXjgJSL6bAnT_tUc6HVWRyp0Tv5mjGDInjRqwY-wCrtlHqzvgbYmULAOKUHEhL9luTA6GpDFCLlvGRvN50ocGPU2HfruSS7l5KEhBaeIosTW26ZODbgxMaL0BbGhTWI9-D7eVpfWvG92ZSpEp_WpVXxw",
+         "types" : [ "zoo", "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "Zoo, Darjeeling, West Bengal 734101, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 27.0586589,
+               "lng" : 88.25390059999999
+            }
+         },
+         "summary" : "There are several important places around Observatory Hill. Birch Hill, or Jawahar Parbat, an offshoot from The Mall, is an exclusive residential section where the Raj Bhavan is situated.[6] The Himalayan Mountaineering Institute is located on the western spur of Jawahar Parbat, about a kilometre and half from Observatory Hill.[7] The Windamere Hotel and West Bengal Government’s Tourist Lodge stand above The Mall. Windamere, a cozy boarding area of the bachelor English and Scottish tea planters, was converted into a hotel in 1939.[8] There are a number of hotels and restaurants in and around Chowrasta or The Mall. A road from The Mall leads to Step Aside - the house of the eminent freedom fighter Chittaranjan Das.[9] He died in Darjeeling on 16 June 1925.[10] The latest addition coming up is a large “Ranga Manch” (theatre) overlooking the Chowrasta.",
+         "icon" : "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQPoXp1ngY5Z88-0Nk85LX_3zIUX94Y-vvXraYU88AoZQQe78gW",
+         "id" : "1015e16b37b73054d1632e9fb082d03dc4f9de8d",
+         "name" : "Himalayan Mountaineering Institute",
+         "photos" : [
+            {
+               "height" : 1500,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116986236009611154757/photos\"\u003eshubhang mankad\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAN0_kNXusWqClxJH9Q4ZFKlhhwAkpZhzzwzo8H5OY_6_8BRSIVdwsTbOR3RzJWnykMcQy6RTyysjImVCcY8EQMmtkixjFRpkqWNVUGiHxGluGP51ChRW0bX1nWXptDrC96lLZvyKRmy8t1KYuF4_yxq27_isQ_H0lmR0z9tyrWwAEhAM5XvIgM2bHxaURj460q2IGhRZWKJjO2Sw65iV-ANciQMy2JnBgw",
+               "width" : 2100
+            }
+         ],
+         "place_id" : "ChIJscSwrK8u5DkRL1bAtloiAZU",
+         "rating" : 4.7,
+         "reference" : "CmRSAAAAfrjXK9PFNq2F6v-dHoGcQOur4t5N1zatGPnCxv6oxJduMR6ZecTAm1gv7Gc1eGVtTT4ckvmvmfQLyilHotUt_3Ojw027zOdDCTqUNbXGP-RwcbFFdQ_ZZPyb_eDDQHHJEhBmWJUe9lMfqDN9_BR_AUsYGhRHHS00Yc-Dl7eD73OdhICKokwGdQ",
+         "types" : [ "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "West Point, Darjeeling, West Bengal 734102, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 27.0166973,
+               "lng" : 88.24709460000001
+            }
+         },
+         "summary" : "There are several important places around Observatory Hill. Birch Hill, or Jawahar Parbat, an offshoot from The Mall, is an exclusive residential section where the Raj Bhavan is situated.[6] The Himalayan Mountaineering Institute is located on the western spur of Jawahar Parbat, about a kilometre and half from Observatory Hill.[7] The Windamere Hotel and West Bengal Government’s Tourist Lodge stand above The Mall. Windamere, a cozy boarding area of the bachelor English and Scottish tea planters, was converted into a hotel in 1939.[8] There are a number of hotels and restaurants in and around Chowrasta or The Mall. A road from The Mall leads to Step Aside - the house of the eminent freedom fighter Chittaranjan Das.[9] He died in Darjeeling on 16 June 1925.[10] The latest addition coming up is a large “Ranga Manch” (theatre) overlooking the Chowrasta.",
+         "icon" : "http://westpointschool.org/images/image-slider-4.jpg",
+         "id" : "165c0c39ac4cfe4464b79b90b31a81c42bda7b88",
+         "name" : "Batasia Loop",
+         "opening_hours" : {
+            "exceptional_date" : [],
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 3000,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108845441322305653987/photos\"\u003eAbhisek Thakur\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAHFRt2RDA3qxhIG2CpKPNlGFZSSw_S_ZHGGw07Lva-O9KhYi-mcR6NkKzpd0gL9UDmuWs2CS8vTyQ13gT_FcMRI3PLKW10Czs1Qg4-IlgrHyHYJEq_ObJSdJkF0IGgcDiECtzlXsVZJxGcpYAGfpLjaQZkMW7nb3CZvU65qPy6KsEhB_UXDhM1hNvGXn1orIdTRvGhTeOJylf196AJv-jR3i0WJJPSTbvw",
+               "width" : 4000
+            }
+         ],
+         "place_id" : "ChIJkw3VPn8u5DkRK3sh8-eH8pc",
+         "rating" : 4.4,
+         "reference" : "CmRSAAAAfnlswHoiD6jcBWwtIAHDehW3rhEGPzAMySOypo8jK0up1spSCceaecID3-SSRU4DHuLHZyHZNnepJrtM5_u-l_nRJ5HkNf6DvW_ILC92y0k6GCJ5tfMeaIbDfFAtLsYcEhCvjK9M_ZIj60WscnjPAlyqGhRPxzHs0zHpfP5Qyc-8eXltvDKD_w",
+         "types" : [ "park", "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "Limbugaon, Darjeeling, West Bengal 734101, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 27.0360066,
+               "lng" : 88.2626751
+            }
+         },
+         "summary" : "There are several important places around Observatory Hill. Birch Hill, or Jawahar Parbat, an offshoot from The Mall, is an exclusive residential section where the Raj Bhavan is situated.[6] The Himalayan Mountaineering Institute is located on the western spur of Jawahar Parbat, about a kilometre and half from Observatory Hill.[7] The Windamere Hotel and West Bengal Government’s Tourist Lodge stand above The Mall. Windamere, a cozy boarding area of the bachelor English and Scottish tea planters, was converted into a hotel in 1939.[8] There are a number of hotels and restaurants in and around Chowrasta or The Mall. A road from The Mall leads to Step Aside - the house of the eminent freedom fighter Chittaranjan Das.[9] He died in Darjeeling on 16 June 1925.[10] The latest addition coming up is a large “Ranga Manch” (theatre) overlooking the Chowrasta.",
+         "icon" : "http://reserv.place/img/property_very_big_thumb/Property/68183.7b571f69c1ec4078ae9433991960954c.jpg",
+         "id" : "1b0b1925f1e373558a9977df29339cae138f707b",
+         "name" : "Jhandi Dara Sunrise Point",
+         "photos" : [
+            {
+               "height" : 720,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112091559424946250733/photos\"\u003eAdarsh Sah\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAKRXQEplXZl3Ea19L7SbqIXqJBa1BRgeWs3H847Lk4jyJq3WLXVV73ufEJ_x4RZ_WTWDzHp4zhGrxh8GOdZ52bOBX8EtFm78ySQlGFJZbNMHP_eDKGjnZi5r2kn_WZSY5OpO56-4EaSZ5uUL9dsdWgePuhJs2pjvztAJZHuIcvScEhDpSsieOZ91K1ZA7E2zKlKZGhRZQVGOIQzaRy9KE6PO-beHJgAW4w",
+               "width" : 480
+            }
+         ],
+         "place_id" : "ChIJR1GHUZIu5DkR6jGpl2Xw4LU",
+         "rating" : 4.4,
+         "reference" : "CmRSAAAAT4qhZEraHv18gSGfdyRpxZF2H0AheEaHVIUkv9_-mZzQqe1TqVSapRULIvjLNI4HgpTX0yfoGUDEtVv09IxoGgO7xqnAF3coUjuRzaCa8YAAZEpJ_xr4Rnv-T0r9vy1MEhByiDhwPcTOfJyZVhXGjo4WGhRXIesjNCmqNWRdENAGRihqjyjJoA",
+         "types" : [ "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "Darjeeling, West Bengal, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 27.0276548,
+               "lng" : 88.25902669999999
+            }
+         },
+         "summary" : "There are several important places around Observatory Hill. Birch Hill, or Jawahar Parbat, an offshoot from The Mall, is an exclusive residential section where the Raj Bhavan is situated.[6] The Himalayan Mountaineering Institute is located on the western spur of Jawahar Parbat, about a kilometre and half from Observatory Hill.[7] The Windamere Hotel and West Bengal Government’s Tourist Lodge stand above The Mall. Windamere, a cozy boarding area of the bachelor English and Scottish tea planters, was converted into a hotel in 1939.[8] There are a number of hotels and restaurants in and around Chowrasta or The Mall. A road from The Mall leads to Step Aside - the house of the eminent freedom fighter Chittaranjan Das.[9] He died in Darjeeling on 16 June 1925.[10] The latest addition coming up is a large “Ranga Manch” (theatre) overlooking the Chowrasta.",
+         "icon" : "http://www.tourism-of-india.com/pictures/travel_guide/attractions/darjeeling-head-122.jpeg",
+         "id" : "715944e6c137aab7545279d3a69a9891b2f9ff30",
+         "name" : "Japanese Temple",
+         "photos" : [
+            {
+               "height" : 1600,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108131660125729010317/photos\"\u003eBalu T R\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAMUifPqF-D_RytWRN_d1uAHttgML8sOi5Erbv3P_zN7UPRQ20fW0zFmlOuvJoJ6csXn2BD7y34rhHWUVeh8iwxy4gXHsDf_RxXsjBYRqwiGWoqJn8yFRx0Zzj_JFDywcf_X5b50b1NJM5SMix3kmVz3NOj3LN7DSx4NBRw_bU8bkEhClL9SyLKkCNDooLTaW4q_mGhSVAVLSEF97rwqkerlU6itH6755Fg",
+               "width" : 2400
+            }
+         ],
+         "place_id" : "ChIJlVU_zY4u5DkREnLXx2DIKIw",
+         "rating" : 4.6,
+         "reference" : "CmRSAAAAAM-PXe7QrvWNi5m6i4zXzm7iipCRUt2Uo6eQJaaa6zmaMb51DWo9SCQeo4ZCHOism06CiLH3X0Py3cXRmjRBWMLJHebBaAZXmX3bDqqyE--EP91hIiwHs78F2x6yCHS3EhBgNbBNID3kZieC-_7GiT5dGhQAIIWndxucOAkKUuRQtt9TCkIIDA",
+         "types" : [ "place_of_worship", "point_of_interest", "establishment" ]
+      }]

@@ -1,0 +1,102 @@
+[
+      {
+         "formatted_address" : "Opposite Madhavar Park, Madhav Nagar, Eshwar Nagar, Manipal, Karnataka 576104, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 13.350513,
+               "lng" : 74.786956
+            }
+         },
+         "icon" : "http://images.totalbeauty.com/uploads/editorial/assets/burger_large.png",
+         "id" : "58319a73b9845d6407ee47a64c186b9ddc4f5981",
+         "name" : "Scirocco Coffee Valley",
+         "opening_hours" : {
+            "exceptional_date" : [],
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 2448,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107228339948902833016/photos\"\u003eКедровый Рай\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAN7jlS1kE8_ZG1C6y9fezt0b7pxkO8sxKgzwyjnoRpKSdx4UCwTFspmywFTpMv30DV2TiQRIwxRhweaEhx_pkkWzuZEn2NRrXrrUFlqnPlzRRYxZOQkLghjuPHwvjdpHOtBbd202Q72oTUf5W1_7mH_GFBXXG4ti2QYVh-TXthxxEhAIqGkXT2Cm1y8mOqUeDIJ6GhTPIBJd9GYFze6D4HkRCpdOloiZDw",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJQTthXKmkvDsRIEy29IwwqGk",
+         "rating" : 4.1,
+         "reference" : "CmRRAAAA2RwRKpSSSdpBE6oyhzCerRFbU4V6YIX0QQFJUSaCWwm99QHdjZg1faK0fhplttxjjOK7UYKzZYjm9gopSSMXVrXf-QwRJMvVKR3WiQIv-dDkWPVeKWv92J08fRNpyNkZEhC_0X91QvEnSfQUHm50JpoIGhSJQG2YSJ7Mw8Mq_lEGIQfN_DhHeA",
+         "types" : [
+            "bakery",
+            "cafe",
+            "restaurant",
+            "food",
+            "store",
+            "point_of_interest",
+            "establishment"
+         ]
+      },
+      {
+         "formatted_address" : "Behind TMA Pai, Smrithi Bhavan, Manipal, Karnataka 576104, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 13.3511405,
+               "lng" : 74.7878678
+            }
+         },
+         "icon" : "http://im.hunt.in/cg/khanna/City-Guide/fast_food.jpg",
+         "id" : "940f60aa8dc1ea8fabd6a8667b41f6183ccaac39",
+         "name" : "The Egg Factory",
+         "opening_hours" : {
+            "exceptional_date" : [],
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 2322,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117829409865567723406/photos\"\u003eGayathri Sasidharan\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAANQFuA8hO_igYa2_XbugI1A3Gr6B7o1UqDotAJwqijjrQIgt68P5nxjON8UN8L01ZNjIcg89XJ-QfcAxlNZykH2yV-KeCMje3B88XHeL9Lw1_badUreshzaDRFVFuBFyTvkfmvazpQ3yiFycA7vkHl2fChoeqsS6D7tegTVcOE7TEhB_n_wDkPIIcpK-ounUW3TmGhTdWJIftOJtuLKu_FqbiC6RRcbvYw",
+               "width" : 4128
+            }
+         ],
+         "place_id" : "ChIJxZ9pE6mkvDsRTsYaFjRyjEs",
+         "rating" : 4.4,
+         "reference" : "CmRRAAAAvsLeiVk7t3vahiKgQX95-R7z0hmTm25wmoYeFg2npGDoi1DUP6mZ_Yk4r7kgf8_OlapkRLLkTUzQ2IlvEzk8Oa5VwvgsiTroFAgTK5M6rsmJE6e83c1-akl8Sqomg1YTEhCJoHyYoZjvHNiWY0qT7aNSGhRGLvYq2ROXVYzusBR5V9r4Mj0iJg",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "SH 25A, Hotel Green Park, Near M I T Bus stop, Manipal, Karnataka 576104, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 13.3531509,
+               "lng" : 74.7905378
+            }
+         },
+         "icon" : "https://froyonation.files.wordpress.com/2012/05/new-restaurants-2-copy.jpg",
+         "id" : "2f391fddb388a86b775773b639273c1bab1444c5",
+         "name" : "Cafe 7 Bees",
+         "opening_hours" : {
+            "exceptional_date" : [],
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1936,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115575423051740770990/photos\"\u003eCafe 7 Bees\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAK3gayu_PHsfFNTexuOnJEhsXp2kOys9xe6zPhhEKCD-Tw8hT1CbuwDCUasK4DRQRYpQ3eMpK51RPzuzCjD79GOJVkJdN6RZfhtoDfOETP9TRsQ047X33CiaduwkStmNXs9mQBfMr3HEltI549s2RaGpjLH_gjacRMcLRJSpOpdsEhA3SgDg0YxAQ7KIo5vaVrwwGhTMMJJCxsddoyIFJe8OKJA5u3J2VQ",
+               "width" : 1936
+            }
+         ],
+         "place_id" : "ChIJCYP6QqikvDsR5vt0050bWlY",
+         "rating" : 4.1,
+         "reference" : "CmRRAAAAKKruQVa_1JU8NlriEIdkmXF7t9yHhHWL7BkSb3PwieM1Gx1tfR_gVTLlbss-pQoJv68Ab6S8JEsDd9tlX3MS6ANHo9js3QAHCUJ2GEPJvO9R7NYxO_F1jQHLjqIP56F3EhDLPesC0bjj4lmiT31Q5ugCGhQURjmYhLmgzAZXkcMZyAj98opdBQ",
+         "types" : [ "restaurant", "food", "store", "point_of_interest", "establishment" ]
+      }]

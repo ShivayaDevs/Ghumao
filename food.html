@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Places to eat</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/navbar_css.css">
+  
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Places to eat</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="dashboard.html">My plan</a></li>
+            <li class="active"><a href="#hungry">I'm hungry!</a></li>
+            <li><a href="photos-list.html">Our Photos</a></li>
+            <li><a href="group.html">My Group</a></li>
+          </ul>
+         </div>
+      </div>
+    </nav>
+    <p></p>    
+    <div class="container" id="food-list">
+
+      <!-- <div class="panel panel-default">
+        <img class="width-match-parent food-image" src="img/dominos.png">
+        <p></p>
+        <div class="container-fluid">
+          <h4 class="place-title heading-inline">Dominos
+          <span class="glyphicon glyphicon-star right-aligned" style="color:pink;">5</span>
+          </h4>
+        </div>        
+      </div>
+     -->
+
+
+
+    </div>
+
+    <script>
+      var filename = 'json/' + localStorage.getItem("destination") + 'Food.json';
+      console.log(filename);
+
+      $.getJSON(filename, function(data){
+        console.log(data);
+        for(var i in data){
+          $('#food-list').append(
+        '<div class="panel panel-default" onclick="showOnMap('+data[i]["geometry"]["location"]["lat"]+
+        ','+data[i]["geometry"]["location"]["lng"]+');">'+
+        '<img class="width-match-parent food-image" src="'+
+        data[i]['icon']+ '">'+
+        '<br> <div class="container-fluid"><br>'+
+           data[i]['name']+
+          '<span class="glyphicon glyphicon-star right-aligned" style="color:#00bcd4;">'+data[i]['rating']+'</span>'+
+           '<br>'+
+
+        '</div>'+        
+      '</div>'
+    
+
+        // +data[i]["geometry"]["location"]["lat"]
+
+
+            );
+        }
+      });
+
+      showOnMap = function(lat, lng){
+        window.location="http://maps.google.com/maps?q="+lat+","+lng;
+      }
+
+    </script>
+
+
+</body>
+</html>
+
+<!--
+
+  TODO: Replace normal button by FAB
+

@@ -1,0 +1,134 @@
+[
+      {
+         "formatted_address" : "Madhav Nagar, Near Tiger circle, Manipal, Karnataka 576104, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 13.3539181,
+               "lng" : 74.7848717
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 13.3613085,
+                  "lng" : 74.7872471
+               },
+               "southwest" : {
+                  "lat" : 13.3457509,
+                  "lng" : 74.78407990000001
+               }
+            }
+         },
+         "summary" : "Manipal (maṇipāl) is a suburb within the city of Udupi in Karnataka, India and is administered by the Udupi City Municipality. It is located on the rocky hinterland of Coastal Karnataka, about 65 km (40 mi) north of Mangalore and 8 km (5.0 mi) east of the Arabian Sea. From its location on a plateau, it commands a panoramic view of the Arabian Sea to the west and the Western Ghats to the east. Home to the Manipal University, the town attracts over twenty five thousand students every year. It is one of the most cosmopolitan towns of India, with people from close to 60 countries studying there.",
+         "icon" : "https://gos3.ibcdn.com/fortune-inn-valley-view-manipal-manipal-lobby-28615392srp.jpg",
+         "id" : "53940babbd1ae954837e904972bf0a991706f74f",
+         "name" : "Manipal University",
+         "photos" : [
+            {
+               "height" : 364,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101132882112759150041/photos\"\u003eManipal University\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAHDx2GNttk2ukxSbGE6h-D9FgDMNsH_s4rpmkr_arncWs9sZCrTmWOSnq9m8inN0M_Ukxsr79PMwk9dtu2P7Hc0W5HVw9wXFVYb9DiTAw9Y6pCjV1KKQ4yD8aVlOdrB8e0YrcupsvE5evUcw8IteSCQoVkuglX4q6WX67PUMNCPPEhBash54MP4ogBCc1cQrWKvYGhSwRwGqzh0T-Ovbx_Y1kSx1eK4vlQ",
+               "width" : 365
+            }
+         ],
+         "place_id" : "ChIJV5ID7qmkvDsRZ5j9C9iUI4c",
+         "rating" : 4.4,
+         "reference" : "CmRSAAAAsXnSLWeSiDev_nHqREmdV0RPtK4n_J1Z8Qmyz_teW6rck6GqSDTXHFZ8meiAdxCqGIniHZTIyqJMeAghj7jn_A5Jd1N5NitJlOEKRoiF9aols3gd2_psFd15qsx_n3wzEhBKf_OeLVceGOhr2cuOKAH6GhQgZOdh8s2D1Jk4Sr-bl9_uz94Bmw",
+         "types" : [ "university", "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "Udupi Karkala Road, Manipal, Karnataka 576104, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 13.3525321,
+               "lng" : 74.79282239999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 13.3525646,
+                  "lng" : 74.79366300000001
+               },
+               "southwest" : {
+                  "lat" : 13.3524346,
+                  "lng" : 74.7925422
+               }
+            }
+         },
+         "summary" : "Manipal (maṇipāl) is a suburb within the city of Udupi in Karnataka, India and is administered by the Udupi City Municipality. It is located on the rocky hinterland of Coastal Karnataka, about 65 km (40 mi) north of Mangalore and 8 km (5.0 mi) east of the Arabian Sea. From its location on a plateau, it commands a panoramic view of the Arabian Sea to the west and the Western Ghats to the east. Home to the Manipal University, the town attracts over twenty five thousand students every year. It is one of the most cosmopolitan towns of India, with people from close to 60 countries studying there.",
+         "icon" : "http://shivallibrahmins.com/wp-content/uploads/2009/04/20080821udupi3.jpg",
+         "id" : "6a4b829ca7d7cc7efcee23b9667bee19b00ff297",
+         "name" : "Manipal Institute of Technology",
+         "photos" : [
+            {
+               "height" : 2304,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110810479577677643272/photos\"\u003eAnand Prasad\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAAgvGyZpmyGopUwQbw9EvjGkEfaE2NfoV2AbWwAVKfGL6tC5hDfy5ZKuGVFomkL5jc-rCb7mtWoIROQr2FTN3T4DgsMYJBQ0oVcQqswxKAKaXEngRHRbzTa_rHCkDMZC8rWyhPtbMPtBRRY4c0D19GiiOV3pn6wBEq1ryVZlpcw6EhBPTxn1xb25BIQUXFzs7cxIGhRHLPiMP00gk-tpA7NFIfy6fjs2hg",
+               "width" : 4096
+            }
+         ],
+         "place_id" : "ChIJt-3E0qekvDsRH4YduE-NWI0",
+         "rating" : 4.7,
+         "reference" : "CmRSAAAAgzm3MMQ5BNZ2f1JcOGLjjaBcMj3NQGcizZX_B8k44om8IKbB5BT2m4iVxdJ5F1P219Z2zWVlJqrYz62eGIqTJbXugMWAaT0y2ZfiAtcOEdrhnCFwZZO5F3tyWtH1ImUXEhDEzvfvNM-idpSFUJCeSzqaGhSXP2ASAd4jOonLLLDA6k49qZVzrg",
+         "types" : [ "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "Madhav Nagar, Eshwar Nagar, Manipal, Udupi, Karnataka 576104, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 13.3542289,
+               "lng" : 74.7871011
+            }
+         },
+         "summary" : "Manipal (maṇipāl) is a suburb within the city of Udupi in Karnataka, India and is administered by the Udupi City Municipality. It is located on the rocky hinterland of Coastal Karnataka, about 65 km (40 mi) north of Mangalore and 8 km (5.0 mi) east of the Arabian Sea. From its location on a plateau, it commands a panoramic view of the Arabian Sea to the west and the Western Ghats to the east. Home to the Manipal University, the town attracts over twenty five thousand students every year. It is one of the most cosmopolitan towns of India, with people from close to 60 countries studying there.",
+         "icon" : "http://udupirealestate.com/userFiles/images/290715065948Eshvar-Nagar1.jpg",
+         "id" : "7750ff2b15ccba417351e7ae4c9e9df6078f5f98",
+         "name" : "Kasturba Medical College, Manipal",
+         "opening_hours" : {
+            "exceptional_date" : [],
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 2464,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112047251199111507286/photos\"\u003eGovind Soni\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAALLU23EUxRd2v-XRL-OOHSzdveyAb2iRzoin9yAxCiL032t9dlWxh_2law55m_hHjvEs_rRQAvFCfExFEM5fOQjTBnAXDfTEpVIpnm48hYcPaclZNyrbHkrNItT01pu17ttm23QoigPH-RVbfNORZTgtXk09bwD-rZd4d2gjPesYEhBC--3lTKF0PCuzydFJVFKvGhRX_qRcHG-P1rHG-ZCibcajcIx2UQ",
+               "width" : 3280
+            }
+         ],
+         "place_id" : "ChIJAQAA8KmkvDsRj6YTgtkpCyE",
+         "rating" : 4.3,
+         "reference" : "CmRRAAAAE4LAyEs7XlwTv8aUAXt9KFp0HMQE2c6L2Q6K3jtutcga60W5CnStchD8r-nzSE1DafaaRdpYZjuV20giVBfg9ZaXTZtozdfgG6J97DKvaUE4w55uvZ5OzGXM87so-EmsEhAlVbUC-r_xAWYD4tdWx80jGhSYvMx4vDnw7q_7zF9wVgu1vSrxJQ",
+         "types" : [ "hospital", "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "Manipal Dr, Saralebettu, Manipal, Karnataka 576104, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 13.356992,
+               "lng" : 74.7849899
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 13.3570256,
+                  "lng" : 74.78585270000001
+               },
+               "southwest" : {
+                  "lat" : 13.3569808,
+                  "lng" : 74.78470230000002
+               }
+            }
+         },
+         "summary" : "Manipal (maṇipāl) is a suburb within the city of Udupi in Karnataka, India and is administered by the Udupi City Municipality. It is located on the rocky hinterland of Coastal Karnataka, about 65 km (40 mi) north of Mangalore and 8 km (5.0 mi) east of the Arabian Sea. From its location on a plateau, it commands a panoramic view of the Arabian Sea to the west and the Western Ghats to the east. Home to the Manipal University, the town attracts over twenty five thousand students every year. It is one of the most cosmopolitan towns of India, with people from close to 60 countries studying there.",
+         "icon" : "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Sunset_manipal.JPG/281px-Sunset_manipal.JPG",
+         "id" : "48bba67b5a53767de56b31c5a380c252334929ca",
+         "name" : "Manipal College of Pharmaceutical Sciences",
+         "place_id" : "ChIJ5YwGyVWjvDsR6qKi8bhitLg",
+         "rating" : 4.4,
+         "reference" : "CmRSAAAAH_q_GhBa-jTx8rZ89NHz3PHLKbHXxZzcPMw6WPhs_e9DVHdx4CtgyMayhqnF3c7suT2w1DYwGjPdZF6qlzzPlIqXkpWGen1Cc7y3DrmymSsNc3CqFKKNc4Q2pXRb0P5vEhBjq9KUo1lQb81y8K6QQ2J8GhRfUgbAsIJiPppPeA07cJCqU0K5Dw",
+         "types" : [ "school", "point_of_interest", "establishment" ]
+      }]

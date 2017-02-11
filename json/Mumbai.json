@@ -1,0 +1,108 @@
+[
+      {
+         "formatted_address" : "Chhatrapati Shivaji Terminus Area, Fort, Mumbai, Maharashtra 400001, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 18.9398208,
+               "lng" : 72.8354676
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 18.9398498,
+                  "lng" : 72.83575355000001
+               },
+               "southwest" : {
+                  "lat" : 18.9397338,
+                  "lng" : 72.83460974999998
+               }
+            }
+         },
+         "summary" : "Chhatrapati Shivaji Terminus is a historic railway station in the city of Mumbai, India. It is a UNESCO World Heritage Site. Its name used to be Victoria Terminus. The station is also called VT (as short-form of Victoria Terminus) or CST (as short-form of Chhatrapati Shivaji Terminus). The station was built in 1887. It was designed by Frederick William Stevens.The station is in the Bori Bunder area of Mumbai",
+         "icon" : "https://upload.wikimedia.org/wikipedia/commons/7/71/Chhatrapati_Shivaji_Terminus_at_night.JPG",
+         "id" : "28e70f1d9cbb2e39f019542749b024e58c7829c4",
+         "name" : "Chhatrapati Shivaji Terminus",
+         "photos" : [
+            {
+               "height" : 1836,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113008293094847186133/photos\"\u003eJAYANTA KARMAKAR\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAJnSdFE6GIlWR00hTTvdrBM-uZs3W9EAJNSS-dv9FlwbL-59qmsCbogDMVjRIO0S3CYz2SdnJU6wy0lKUWEFdPGsabjytgZrh1scPkFmy3mFFdWkDY1lyklWe886HNKVTdxMeoB_jyDkzLb4At8H6FLOIVdn48RwrlHp5MtS8bbtEhBMsTYaXw88LDOiXtc36Vb8GhRnWN0Foq14xso_UD01aNc6ZwslhA",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJE81GBI3I5zsRtKr1c05RNrE",
+         "rating" : 4.5,
+         "reference" : "CmRSAAAAMXqM_UPk53bsP0QXbA9I9WdoYQ8JDX7DWrDY07nbCgQmnJOclnr4rIH_4qgBTHWB_R1lZTdzeEz4o0jfawao8t43RA6jjQIjbS5tDwdlVWUmR52Std50BXE-_7UtckeEEhBe-sjsDR_MoGVAc6LUDEoAGhQ1ONjxytsdBHZGa90eOtZc3shmAA",
+         "types" : [
+            "transit_station",
+            "bus_station",
+            "train_station",
+            "point_of_interest",
+            "establishment"
+         ]
+      },
+      {
+         "formatted_address" : "Bhulabhai Desai Road, Mumbai, Maharashtra 400026, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 18.9773573,
+               "lng" : 72.8065182
+            }
+         },
+         "summary" : "Chhatrapati Shivaji Terminus is a historic railway station in the city of Mumbai, India. It is a UNESCO World Heritage Site. Its name used to be Victoria Terminus. The station is also called VT (as short-form of Victoria Terminus) or CST (as short-form of Chhatrapati Shivaji Terminus). The station was built in 1887. It was designed by Frederick William Stevens.The station is in the Bori Bunder area of Mumbai",
+         "icon" : "https://c1.staticflickr.com/1/603/21825910228_9e8c8ecf57_b.jpg",
+         "id" : "f2d3958cd72a9d0dd8993d848b4885d099f62c87",
+         "name" : "Shree Mahalakshmi Temple",
+         "photos" : [
+            {
+               "height" : 3120,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107159028949361594602/photos\"\u003eSwapnil P. Kumar\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAEJzW0l06vkZSU0Ic2xQ32_rVmf2A_dYYFNjzHNyMQFUws7SxHpdTjr2OfhhxKSRI9AKXbw0UtItfhjGPxlnf8eu4QskPFR_gYqJSyPN61WfbZUwyFh9PmihNYt-GnES27pAbxDgYOuBV6d12QlrYoYT79bPu5K-65FgRCHDExLuEhDWr5XJ6zl6_WDuGZrP7EaHGhRKtiQXYUdtXQiIFCNC-4Ctlao-xA",
+               "width" : 4160
+            }
+         ],
+         "place_id" : "ChIJnTSpUHjO5zsRYHxlsB4vjzU",
+         "rating" : 4.4,
+         "reference" : "CmRRAAAANiG7l9zWi8Y9lSs8IkhsxCbbt8qNVXmF0kNpbC0LJCqnaqi-gN7Qq5P3frepefWz5Dy_d6pSStEt4cmVWR9JhVhAICoxDThv1S7RpNTmrfn0jqhm0asp_G_3rhQH8RvGEhC5f_TXAuatyETwCpk4_s9lGhTTSRHBb30t3sSON_iuDZ1jjlrXKA",
+         "types" : [
+            "hindu_temple",
+            "place_of_worship",
+            "point_of_interest",
+            "establishment"
+         ]
+      },
+      {
+         "formatted_address" : "S.K.Bole Marg, Prabhadevi, Mumbai, Maharashtra 400028, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 19.0169027,
+               "lng" : 72.83034529999999
+            }
+         },
+         "summary" : "Chhatrapati Shivaji Terminus is a historic railway station in the city of Mumbai, India. It is a UNESCO World Heritage Site. Its name used to be Victoria Terminus. The station is also called VT (as short-form of Victoria Terminus) or CST (as short-form of Chhatrapati Shivaji Terminus). The station was built in 1887. It was designed by Frederick William Stevens.The station is in the Bori Bunder area of Mumbai",
+         "icon" : "http://temples.s3.amazonaws.com/10026/large/sri-siddhi-vinayaka-temple_1418818110.png",
+         "id" : "d69673ec5d3e42df49641268c98af3a9cd284626",
+         "name" : "Shree SiddhiVinayak Ganapati Temple",
+         "photos" : [
+            {
+               "height" : 3104,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105934052358092379218/photos\"\u003eMadhukar pagare\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAFXMcxwVtIn_hfrLfAFzNMXafC0Ls3PAoIx5zEYTAow5s6nRhtwjp075u_9ViKW6J4OBPSg9-0Nr1qmBcrFgItGFyElKnnjY8hPvXDVpV-X-J8c12APKsZJvawDlLv_fhzWQYZUqB3KlHmYGvP3Fb2m1_rGjSXw3nBoaou2zHGRoEhCL45v3cI1OzTHDCru176UoGhTCe_7pDh-ssd7wiTOpLAXxnmhCUg",
+               "width" : 4192
+            }
+         ],
+         "place_id" : "ChIJH0Dg0ObH5zsRehzseMg4Jv0",
+         "rating" : 4.7,
+         "reference" : "CmRSAAAA0sgzl6Kucega_RWbolXncoycKgaCp5MF-VKOeHB6b9GBroazoJeehO9l9a_Ks-bzxl1gc-WU3z1Gb52RGvDUmUzx7Yj3feCGIYjcounw1YuWCv8HFpKaZXMeibR7QTr2EhDLy7zD-Tl3QdD9bYMJ_limGhQHv2iHTPZSoJoJ5E7HHJ4ZcaINbg",
+         "types" : [
+            "hindu_temple",
+            "place_of_worship",
+            "point_of_interest",
+            "establishment"
+         ]
+      }]
